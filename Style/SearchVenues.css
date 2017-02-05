@@ -1,0 +1,23 @@
+﻿/*!
+ * Start Bootstrap - Shop Item (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding:0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background:transparent url(../img/bg.jpg);background-size: cover;
+	background-attachment:fixed;
+	font-family:Arial, Helvetica, sans-serif
+}
+
+
+h1 {
+	font-family:"Arial Black", Gadget, sans-serif;
+  text-transform: uppercase;
+  font-size: 38px;
+  margin: 0px;
+	color:#fff;
+	line-height:1.4em;
+  vertical-align: middle;
+}

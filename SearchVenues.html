@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Where To Go</title>
+    <script src="External Scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/SearchVenues.js" type="text/javascript"></script>
+    
+
+
+</head>
+
+<body>
+    <div id="dvMain">
+    
+        <div class="row SearchHolder" data-custom-attr="searchHolder">
+            <div id="dvSearchBox">
+               <h1>Where To Go</h1> 
+               <p class="SearchDes">Find the best places to eat, drink, shop, or visit in any city in the world. Access over 75 million short tips from local experts.</p>
+                <input id="txtSearchVenueByName"  style="width:350px;" placeholder="I'm looking for..." type="text" /> <input id="txtNearBy" style="width:200px;" placeholder="Current Location" type="text" />
+               
+                <button id="btnSearch" class="search btn btn-success" class="" title="click to search"><span class="glyphicon glyphicon-search"></span> Search</button>
+            </div>
+           	<ul class="chiclets">
+            	<li class="food simpleChiclet">
+                	<a class="chicletLink" data-exploreByCat="Food">
+                    	<span class="chicletText">Food</span>
+                    </a>
+                </li>
+                <li class="coffee simpleChiclet">
+                	<a class="chicletLink" data-exploreByCat="Coffee">
+                    	<span class="chicletText">Coffee</span>
+                    </a>
+                </li>
+                <li class="drinks simpleChiclet">
+                	<a class="chicletLink" data-exploreByCat="Nightlife">
+                    	<span class="chicletText">Nightlife</span>
+                    </a>
+                </li>
+                <li class="arts simpleChiclet">
+                	<a class="chicletLink" data-exploreByCat="Fun">
+                    	<span class="chicletText">Fun</span>
+                    </a>
+                </li>
+                <li class="shops simpleChiclet">
+                	<a class="chicletLink" data-exploreByCat="Shopping">
+                    	<span class="chicletText">Shopping</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="row MainSearchHolder">
+        
+        <div id="dvFilterPanel" class="col-md-3 col-lg-2 FilterPanel" style="display:none;">
+            <h4>Filters</h4>
+            <div id="dvFilterItem"></div>
+        </div>
+        <div id="dvVenuesListing" class="col-md-7 col-lg-7 VenuesListing"></div>
+        </div>
+    </div>
+</body>
+</html>
