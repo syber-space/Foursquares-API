@@ -15,4 +15,5 @@ To get nearby places it is necessary either to allow browser to know users’ cu
 
 If user clicks on categories on left side of the page, filtered places as per selected category and entered values in nearby and venue name, are show on the right side of the page.
 
+Below the search box user is shown square boxes, clicking on those boxes will show user places of those categories. (This category based search is done by hitting venues/explore on foursquare API as per foursquare documentation.) 
 
