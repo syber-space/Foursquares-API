@@ -17,3 +17,9 @@ If user clicks on categories on left side of the page, filtered places as per se
 
 Below the search box user is shown square boxes, clicking on those boxes will show user places of those categories. (This category based search is done by hitting venues/explore on foursquare API as per foursquare documentation.) 
 
+Currently, if the venue is searched via providing the Category then the results show the ratings as well, but not when the venue is search without the category selection. Update of this feature is forthcoming. 
+
+Limitations faced during development:
+1)	Images/photos of places are not shown because photos links provided by foursquare API were broken and showing errors. Searched and brain stromed for the solution but could not find any useful solution for now. 
+
+This module is a read-only subset of the full Foursquare API, but further capability, (adding, posting, updating,images and links display etc), is forthcoming based on further request. 
