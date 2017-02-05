@@ -121,6 +121,7 @@ var FourSquareApi = function () {
                 _MainClass.$dvVenuesListing.append(venueCard);
             });
         } else {
+            _MainClass.$dvVenuesListing.append('<div>No Record Found.</div>');
         }
     }
 
@@ -176,6 +177,7 @@ var FourSquareApi = function () {
                 });
             });
         } else {
+            _MainClass.$dvVenuesListing.append('<div>No Record Found.</div>');
         }
     }
 
